@@ -5,6 +5,11 @@
     &-pavigation {
         display: flex;
         align-items: center;
+        &-logo {
+            margin-right: 50px;
+            display: flex;
+            text-decoration: none;
+        }
         &-list {
             display: flex;
             list-style: none;

@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Ibarra Real Nova', serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/IbarraRealNova-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/PublicSans-Regular.ttf);
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -452,6 +466,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer-pavigation-logo {
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
 }
 
 .footer-pavigation-list {
