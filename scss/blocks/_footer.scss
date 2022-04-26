@@ -1,0 +1,40 @@
+.footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #33323D;
+    &-pavigation {
+        display: flex;
+        align-items: center;
+        &-list {
+            display: flex;
+            list-style: none;
+            &-item {
+                display: flex;
+                margin-right: 30px;
+                &-link {
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+            &-item:last-child {
+                margin: unset;
+            }
+        }
+        &-social-media {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            &-link {
+                padding: 12px;
+                text-decoration: none;
+            }
+        }
+    }
+}
