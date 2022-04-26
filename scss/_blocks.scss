@@ -1,3 +1,11 @@
 @import './blocks/header';
-// sections
+// sections start
+@import './blocks/hero';
+@import './blocks/about';
+@import './blocks/contact';
+@import './blocks/portfolio';
+@import './blocks/portfolio-detail';
+@import './blocks/next-page';
+@import './blocks/contact';
+//sections end
 @import './blocks/footer';

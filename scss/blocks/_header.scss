@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: space-between;
     background-color: #FAFAFA;
+    position: sticky;
+    top: 0;
+    z-index: 4;
     &-logo {
         display: flex;
         text-decoration: none;

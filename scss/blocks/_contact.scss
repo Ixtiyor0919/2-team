@@ -1,0 +1,23 @@
+.contact {
+    padding-top: 75px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    &-title {
+        width: 30%;
+        font-family: 'Ibarra Real Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+    &-line {
+        width: 534px;
+        height: 1px;
+        margin: 0 32px;
+        background: #33323D;
+        opacity: 0.15;
+    }
+}

@@ -1,0 +1,25 @@
+.portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    &-description {
+        margin-left: 125px !important;
+        &-title {
+            margin: 103px 0 28px 0;
+        }
+        &-text {
+            width: 65%;
+        }
+        &-link {
+            margin: 24px 0 103px 0;
+        }
+    }
+    .right {
+        margin-left: 0 !important;
+        margin-right: 125px;
+    }
+}
+.portfolio:nth-child(even) {
+    flex-direction: row-reverse;
+}

@@ -29,3 +29,46 @@ body{
     padding: 0 165px;
     margin: auto;
 }
+
+//global styles 
+
+.subtitle {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.text {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.8;
+}
+
+.btn {
+    padding: 17px 34px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #33323D;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #33323D;
+}
+
+.line {
+    width: 350px;
+    height: 1px;
+    background: #33323D;
+    opacity: 0.15;
+}

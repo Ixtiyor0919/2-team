@@ -1,0 +1,57 @@
+.portfolyo {
+    &-main-image {
+        margin-bottom: 60px;
+    }
+    &-details {
+        display: flex;
+        &-left {
+            margin-right: 125px;
+            &-title {
+                margin: 48px 0 30px 0;
+            }
+            &-link {
+                margin: 32px 0 48px 0;
+            }
+        }
+        &-right {
+            &-top {
+                margin-bottom: 40px;
+                &-title {
+                    margin-bottom: 28px;
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 42px;
+                    letter-spacing: -0.285714px;
+                    color: #33323D;
+                }
+                &-text {
+                    width: 72%;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 30px;
+                    color: #33323D;
+                    opacity: 0.8;
+                }
+            }
+            &-bottom {
+                &-title {
+                    margin-bottom: 28px;
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 42px;
+                    letter-spacing: -0.285714px;
+                    color: #33323D;
+                }
+                &-img:first-child {
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+}
