@@ -1,0 +1,51 @@
+.project {
+  margin-top: 108px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &_desc {
+    font-family: "Ibarra Real Nova", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+    width: 390px;
+  }
+  &_link {
+    position: relative;
+    &_link {
+      text-decoration: none;
+      font-family: "Public Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 2px;
+      color: #33323d;
+      padding: 13px 23px;
+      border: 1px solid #33323d;
+    }
+    &::after {
+      content: "";
+      width: 534px;
+      height: 1px;
+      position: absolute;
+      top: 10px;
+      left: -566px;
+      background-color: #33323d;
+      opacity: 0.15;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .project {
+    &_link {
+      &::after {
+        width: 113px;
+        left: -130px;
+      }
+    }
+  }
+}

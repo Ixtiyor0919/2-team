@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  &_item {
+    list-style: none;
+    padding-right: 20px;
+  }
+  &_link {
+    text-decoration: none;
+    font-family: "Public Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323d;
+    &_color {
+      color: #5fb4a2;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    background-color: #ffff;
+  }
+}
