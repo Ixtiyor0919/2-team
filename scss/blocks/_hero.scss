@@ -34,22 +34,12 @@
             letter-spacing: -0.357143px;
             color: #33323D;
         }
-        &-before {
-            padding: 18px 16px;
-            width: 48px;
-            height: 48px;
-            margin: 0 -5px -21px 0;
-            display: inline-block;
-            background: url(../../images/hero-after.png) no-repeat;
-            background-position: bottom;
-            background-size: contain;
-            background-color: #212f38;
-        }
         &-link {
-            padding-top: 17px;
-            padding-bottom: 17px;
-            padding: 17px 34px;
+            width: 200px;
+            height: 48px;
+            padding: 17px 0 17px 48px;
             display: inline-block;
+            position: relative;
             font-family: 'Public Sans';
             font-style: normal;
             font-weight: 400;
@@ -60,6 +50,30 @@
             text-decoration: none;
             color: #FFFFFF;
             background: #203A4C;
+        }
+        &-link::before {
+            content: "";
+            width: 48px;
+            height: 48px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: inline-block;
+            background: url(../../images/hero-after.png) no-repeat;
+            background-position: bottom;
+            background-size: contain;
+        }
+        &-link:hover {
+            background: #5FB4A2
+        }
+        &-link:active {
+            background-color:  #EAEAEB;
+        }
+        &-link:hover::before {
+            background-color:  #5FB4A2;
+        }
+        &-link:active::before {
+            background-color:  #ffffff;
         }
     }
 }

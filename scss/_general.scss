@@ -64,6 +64,16 @@ body{
     text-decoration: none;
     display: inline-block;
     border: 1px solid #33323D;
+    background-color: #fafafa;
+}
+.btn:hover {
+    color: #fafafa;
+    background: #33323D;
+}
+.btn:active {
+    color: #33323d;
+    background-color: #fafafa;
+    border: 1px solid #33323D;
 }
 
 .line {
