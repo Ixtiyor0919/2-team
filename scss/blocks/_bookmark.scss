@@ -1,0 +1,37 @@
+.bookmark {
+  margin-top: 80px;
+  display: flex;
+  &_text {
+    width: 350px;
+    &_title {
+      font-family: "Ibarra Real Nova", serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 42px;
+      letter-spacing: -0.357143px;
+      color: #33323d;
+    }
+    &_desc {
+      font-family: "Public Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #33323d;
+      opacity: 0.8;
+    }
+    &_link {
+      text-decoration: none;
+      font-family: "Public Sans", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 2px;
+      color: #33323d;
+      padding: 13px 23px;
+      border: 1px solid #33323d;
+    }
+  }
+}
