@@ -1,0 +1,74 @@
+.message {
+  width: 1218px;
+  height: 798px;
+  background-color: red;
+  background: url(../../ozoda_photos/page1_img.png);
+  background-repeat: no-repeat;
+
+  &_screen {
+    width: 659px;
+    height: 371px;
+    margin-top: 15px;
+    margin-left: 174px;
+  }
+  &_card {
+    width: 445px;
+    height: 357px;
+    padding-top: 56px;
+    background-color: #fafafa;
+    position: absolute;
+    top: 365px;
+    left: 66px;
+
+    &_title {
+      font-family: "Ibarra Real Nova", serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 50px;
+      letter-spacing: -0.446429px;
+      color: #33323d;
+    }
+    &_link {
+      margin-top: 53px;
+      width: 200px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      background-color: #203a4c;
+
+      &_connect {
+        display: flex;
+        justify-content: space-between;
+        font-family: "Public Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .message {
+    width: 768px;
+    &_screen {
+      margin-top: 11px;
+      margin-left: 221px;
+      &_item {
+        width: 495px;
+        height: 279px;
+      }
+    }
+    &_card {
+      top: 373px;
+      left: 0;
+    }
+  }
+}

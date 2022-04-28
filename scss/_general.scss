@@ -1,29 +1,39 @@
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
-*, 
+*,
 *::after,
-*::before{
-    box-sizing: inherit;
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
 }
-body{
-    font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.visually-hidden{
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
+// this is comment
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  overflow-x: hidden;
 }
 
-.container{
-    max-width: 1280px;
-    padding: 0 30px;
-    margin: auto;
+.visually-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 65px 83px 0 83px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 73px 40px 0 39px;
+  }
 }
